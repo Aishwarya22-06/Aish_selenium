@@ -16,7 +16,7 @@ public class Naukri {
 		
 		driver.findElement(By.xpath("html/body/div/div[2]/div/div[3]/div/form/fieldset/div[1]/div[1]/div[1]/div/select")).click();
 		driver.findElement(By.xpath("html/body/div/div[2]/div/div[3]/div/form/fieldset/div[1]/div[1]/div[1]/div/select/option[2]")).click();
-		driver.findElement(By.xpath("html/body/div/div[2]/div/div[3]/div/form/fieldset/div[1]/div[1]/p[4]/input")).sendKeys("aishwaryadinni22@gmail.com");
+		driver.findElement(By.xpath("html/body/div/div[2]/div/div[3]/div/form/fieldset/div[1]/div[1]/p[4]/input")).sendKeys("testautomate@gmail.com");
 		//driver.findElement(By.xpath("html/body/div/div[2]/div/div[3]/div/form/fieldset/div[1]/div[1]/div[2]/div/select")).sendKeys("OCVAJ");
 		
 		driver.findElement(By.xpath("html/body/div/div[2]/div/div[3]/div/form/fieldset/div[1]/div[1]/p[5]/div/input")).sendKeys("D:\\aishresume.txt");//upload text

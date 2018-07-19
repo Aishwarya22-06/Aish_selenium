@@ -15,11 +15,11 @@ public class Autopratice {
 			driver.manage().window().maximize();
 			
 			driver.findElement(By.xpath("html/body/div[1]/div[1]/header/div[2]/div/div/nav/div[1]/a")).click();
-			driver.findElement(By.xpath("html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/div[1]/input")).sendKeys("aishwaryadinni22@gmail.com");
-			driver.findElement(By.xpath("html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/div[2]/span/input")).sendKeys("aish@123");
+			driver.findElement(By.xpath("html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/div[1]/input")).sendKeys("testautomate2018@gmail.com");
+			driver.findElement(By.xpath("html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/div[2]/span/input")).sendKeys("raodinni2018");
 			driver.findElement(By.xpath("html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/p[2]/button")).click();
 			
-				driver.findElement(By.xpath("html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[3]/a")).click();			
+		    driver.findElement(By.xpath("html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[3]/a")).click();			
 		
 		
 				 Actions action=new Actions(driver);

@@ -20,13 +20,13 @@ public class ecommerce {
 		driver.findElement(By.xpath("html/body/div[7]/div/div[2]/div[2]/div/div[1]/div/div[1]/form/div/div[1]/div[2]/div[1]/div[1]")).click();
 		
 		//email input
-		driver.findElement(By.xpath("html/body/div[7]/div/div[2]/div[2]/div/div[1]/div/div[1]/form/div/div[1]/div[2]/div[1]/div[1]/input")).sendKeys("aishwaryadinni22@gmail.com");
+		driver.findElement(By.xpath("html/body/div[7]/div/div[2]/div[2]/div/div[1]/div/div[1]/form/div/div[1]/div[2]/div[1]/div[1]/input")).sendKeys("testautomate@gmail.com");
 		
 		//password click
 		driver.findElement(By.xpath("html/body/div[7]/div/div[2]/div[2]/div/div[1]/div/div[1]/form/div/div[2]/div[2]/div[1]/div[1]")).click();
 		
 		//password input
-		driver.findElement(By.xpath("html/body/div[7]/div/div[2]/div[2]/div/div[1]/div/div[1]/form/div/div[2]/div[2]/div[1]/div[1]/input")).sendKeys("ash12345");
+		driver.findElement(By.xpath("html/body/div[7]/div/div[2]/div[2]/div/div[1]/div/div[1]/form/div/div[2]/div[2]/div[1]/div[1]/input")).sendKeys("raodinni2018");
 		
 		//login
 		driver.findElement(By.xpath("html/body/div[7]/div/div[2]/div[2]/div/div[1]/div/div[1]/form/div/button")).click();
